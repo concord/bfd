@@ -1,0 +1,10 @@
+name: bfd
+dependencies:
+- flake8
+- matplotlib=1.4
+- notebook=4.0
+- numpy=1.10
+- python=2.7
+- scipy=0.16
+- pip:
+    - concord-py==0.3
