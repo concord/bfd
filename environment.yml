@@ -1,0 +1,15 @@
+name: bfd
+dependencies:
+# Testing Dependencies
+- flake8
+- pytest=2.8
+# Run dependencies
+- matplotlib=1.4
+- notebook=4.0
+- numpy=1.10
+- pandas=0.17
+- python=2.7
+- scipy=0.16
+- pip:
+    - concord-py==0.3
+    - yahoo-finance>=1.2
